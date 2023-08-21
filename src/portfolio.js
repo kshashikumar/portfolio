@@ -72,11 +72,60 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building Full stack responsive websites by integrating both efficiently coded frontend and backend",
+        "⚡ Developing web applications using Sping boot, React, Angular, Vuejs, GoLang and automated batch jobs using Spring batch",
+        "⚡ Creating application backend in Spring boot, Java, python and GoLang",
       ],
       softwareSkills: [
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "#DD0031",
+          },
+        },
+        {
+          skillName: "spring",
+          fontAwesomeClassname: "simple-icons:spring",
+          style: {
+            color: "#6DB33F",
+          },
+        },
+        {
+          skillName: "springboot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#6DB33F",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "goLang",
+          fontAwesomeClassname: "simple-icons:go",
+          style: {
+            color: "#00ADD8",
+          },
+        },
+        {
+          skillName: "vuedotjs",
+          fontAwesomeClassname: "simple-icons:vuedotjs",
+          style: {
+            color: "#4FC08D",
+          },
+        },
+        {
+          skillName: "typescript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#3178C6",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -107,13 +156,6 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
@@ -127,79 +169,58 @@ const skills = {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Software Development Engineering",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Experience working on developing backend software systems using java",
+        "⚡ Hosting and maintaining applications on Linux, Docker and OCP instances along with integration of databases",
+        "⚡ Deploying applications with muliple instances so to handle high volumes",
+        "⚡ Increasing the performance of application by efficiently improving the code",
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "c",
+          fontAwesomeClassname: "simple-icons:c",
           style: {
-            color: "#4285F4",
+            color: "#A8B9CC",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "cplusplus",
+          fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
-            color: "#FF9900",
+            color: "#00599C",
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "java",
+          fontAwesomeClassname: "simple-icons:oracle",
           style: {
-            color: "#0089D6",
+            color: "#F80000",
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#FFCA28",
+            color: "#3776AB",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "mariadb",
+          fontAwesomeClassname: "simple-icons:mariadb",
           style: {
-            color: "#336791",
+            color: "#003545",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "mysql",
+          fontAwesomeClassname: "simple-icons:mysql",
           style: {
-            color: "#47A248",
+            color: "#4479A1",
           },
         },
         {
@@ -210,15 +231,22 @@ const skills = {
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "redhatopenshift",
+          fontAwesomeClassname: "simple-icons:redhatopenshift",
           style: {
-            color: "#326CE5",
+            color: "#EE0000",
+          },
+        },
+        {
+          skillName: "linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#FCC624",
           },
         },
       ],
     },
-    {
+    /*{
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
@@ -255,8 +283,10 @@ const skills = {
             color: "#000000",
           },
         },
+        
       ],
     },
+    */
   ],
 };
 
@@ -294,7 +324,7 @@ const competitiveSites = {
         color: "#5B4638",
       },
       profileLink: "https://www.codechef.com/users/shashipatel_27",
-    }
+    },
   ],
 };
 
@@ -346,7 +376,7 @@ const certifications = {
         "https://www.guvi.in/verify-certificate?id=Uar1969S1944847t88#",
       alt_name: "New York Institue of Technology",
       color_code: "#8C151599",
-    }
+    },
   ],
 };
 
@@ -363,16 +393,17 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Analyst, Specialist, Application Developer, Corporate Banking ",
+          title:
+            "Analyst, Specialist, Application Developer, Corporate Banking ",
           company: "DBS Tech",
           company_url: "https://www.dbs.com/dbstechindia/index.html",
           logo_path: "DBS.png",
           duration: "June 2021 - Aug 2023",
           location: "Hyderabad, Telangana",
-          description:  
+          description:
             "I have worked on Integrated online payments Engine Project, which is the core heart of every online payment systems. The projects involves processing of a transaction end-to-end within 6 seconds. I also worked on developing spring batch jobs to automate huge number of transations and also developed User interfaces, which are used by the bank officials to view the transaction details. Our goal is to make banking easy. Think more, Bank less",
           color: "#0879bf",
-        }
+        },
       ],
     },
     {
@@ -388,7 +419,7 @@ const experience = {
           description:
             "Built a User Interface with Rest Apis calls to view all the insights of github repositories. The project helped the users to view the detailed analysis of a repository in Github. It provides insights in different types of charts and graphs, so to make it easy for users to understand.",
           color: "#000000",
-        }
+        },
       ],
     },
   ],
@@ -402,21 +433,17 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-
-
-
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "kshashikumar-rounded.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Java, Python, Spring boot, Spring Batch, Angular, React, GoLang, Linux, Docker, OCP, Application Development and Full Staack Development.",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "209 Princess St, Hicksville, NY 11801",
+    subtitle: "209 Princess St, Hicksville, NY 11801",
     locality: "Hicksville",
     country: "USA",
     region: "New York",
