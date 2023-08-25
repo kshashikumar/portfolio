@@ -507,7 +507,7 @@ const contactPageData = {
   },
   phoneSection: {
     title: "shashikumarkasturi2712@gmail.com",
-    subtitle: "",
+    subtitle: "+1 (516) 9797932",
   },
 };
 
