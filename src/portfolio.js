@@ -360,12 +360,21 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "ACM - International Collegiate Programming Contest",
+      subtitle: "- ACM ICPC",
+      logo_path: "ACM-ICPC-logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1k_WP8SdF3Z8Qj0H--cjjZcXt7XIEib4x/view?usp=share_link",
+      alt_name: "ACM - International Collegiate Programming Contest",
+      color_code: "#00000099",
+    },
+    {
       title: "Oracle Certified Associate, Java SE 8 Programmer",
       subtitle: "- Oracle",
       logo_path: "oracle.webp",
       certificate_link:
         "https://www.credly.com/badges/a397584b-ad6c-4c4a-9606-0f42a74de819",
-      alt_name: "New York Institue of Technology",
+      alt_name: "Oracle Certified Associate, Java SE 8 Programmer",
       color_code: "#00000099",
     },
     {
@@ -374,8 +383,35 @@ const certifications = {
       logo_path: "GUVI.webp",
       certificate_link:
         "https://www.guvi.in/verify-certificate?id=Uar1969S1944847t88#",
-      alt_name: "New York Institue of Technology",
+      alt_name: "AI for India",
       color_code: "#8C151599",
+    },
+    {
+      title: "DBS Super Rookie Recognition - Outward D3",
+      subtitle: "- DBS Tech",
+      logo_path: "DBS.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1daCgoSnRs8nGaCwOVSINnF-iGWw-t-eM/view?usp=share_link",
+      alt_name: "DBS Super Rookie Recognition - Outward D3",
+      color_code: "#00000099",
+    },
+    {
+      title: "DBS Super Rookie Recognition - FPS Oct Release",
+      subtitle: "- DBS Tech",
+      logo_path: "DBS.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1zJRm5V0KOW-BVYx-ttS5UbZN53RNZ-0n/view?usp=share_link",
+      alt_name: "DBS Super Rookie Recognition - FPS Oct Release",
+      color_code: "#00000099",
+    },
+    {
+      title: "DBS Appsec Titan Bronze",
+      subtitle: "- DBS Tech",
+      logo_path: "DBS.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1uUqymY0ePnVzxBGQn863c1baDqFmzNoF/view?usp=share_link",
+      alt_name: "DBS Appsec Titan Bronze",
+      color_code: "#00000099",
     },
   ],
 };
@@ -402,7 +438,19 @@ const experience = {
           location: "Hyderabad, Telangana",
           description:
             "I have worked on Integrated online payments Engine Project, which is the core heart of every online payment systems. The projects involves processing of a transaction end-to-end within 6 seconds. I also worked on developing spring batch jobs to automate huge number of transations and also developed User interfaces, which are used by the bank officials to view the transaction details. Our goal is to make banking easy. Think more, Bank less",
-          color: "#0879bf",
+          color: "#f5f5f5",
+          workPoints: [
+            "Collaborated with a six-person team and Worked for Fast payments for countries Hong Kong and Vietnam.",
+            "Developed a batch module for Outward C3 which allows to on-board any DBS customers without further system enhancement, support both proxy and bank account transfer into the same product code, make our bank competitive as providing late cut-off time at 7PM SGT and NoOps process on return reject cases.",
+            "Developed resiliency workflow to provide supplementary information feedback to our DBS customers on Payee Account crediting status. For FPS outward real-time transfer, on top of existing account verification result provided from payee banks we can receive and return the new acknowledgement message from payee banks for crediting status.",
+            "Developed Batch Job for data archiving for real time and bulk transaction processing and automated the process completely for Hongkong and Vietnam countries in which the system performance improved with enhanced results.",
+            "Migrated the Internal operations team User Interface from Struts, JSP to Angular framework and implemented MFA.",
+            "Fixed Log4j Critical Vulnerability issue in Integrated Payment Engine 2 for Hongkong Country.",
+            "Developed and supported for Migration from VIC to OCP so the system can run with high scalability, resiliency and availability. Used HPA and Auto and De Scaling and used Service Monitor for pushing the logs to a centralized logging system GrayLog.",
+            "Developed simulator for testing which is available for chromium browsers which helps to automate the Regression and Load testing.",
+            "Developed Batch Job for Consolidated Payments which supports both enquiry and bulk payment. It helps the customers to do bulk transactions through online processing taking the help of batch jobs to process the bulk files.",
+            "Trained interns on Full stack development by making them develop two different applications namely Industry Stub and Migration of UI from JSPs to Angular JS.",
+          ],
         },
       ],
     },
@@ -415,10 +463,15 @@ const experience = {
           company_url: "https://www.virtusa.com/",
           logo_path: "virtusa.webp",
           duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          location: "Hyderabad, Telangana",
           description:
             "Built a User Interface with Rest Apis calls to view all the insights of github repositories. The project helped the users to view the detailed analysis of a repository in Github. It provides insights in different types of charts and graphs, so to make it easy for users to understand.",
-          color: "#000000",
+          color: "#f5f5f5",
+          workPoints: [
+            "Worked on a project which deals with code analysis of a repository on Github. These project shows a detailed analysis of repositories in the form of tables and charts, helping the developers to analyze their repository in a better way.",
+            "Evaluated and analyzed different data of repositories to provide the best analysis.",
+            "This Internship helped me in learning new technologies. I Used Go Lang as a backend language in tech stack, which is fast as it is a compiled language and Vue.js for frontend that provided a good UI for the websites.",
+          ],
         },
       ],
     },
@@ -437,7 +490,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "kshashikumar-rounded.png",
+    profile_image_path: "cartoon-nobg.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Java, Python, Spring boot, Spring Batch, Angular, React, GoLang, Linux, Docker, OCP, Application Development and Full Staack Development.",
   },
@@ -453,7 +506,7 @@ const contactPageData = {
     location_map_link: "https://goo.gl/maps/xEEmX2nEto1iSrjZ8",
   },
   phoneSection: {
-    title: "",
+    title: "shashikumarkasturi2712@gmail.com",
     subtitle: "",
   },
 };
