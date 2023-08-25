@@ -462,7 +462,7 @@ const experience = {
           company: "Virtusa",
           company_url: "https://www.virtusa.com/",
           logo_path: "virtusa.webp",
-          duration: "May 2022 - Aug 2022",
+          duration: "May 2020 - Aug 2020",
           location: "Hyderabad, Telangana",
           description:
             "Built a User Interface with Rest Apis calls to view all the insights of github repositories. The project helped the users to view the detailed analysis of a repository in Github. It provides insights in different types of charts and graphs, so to make it easy for users to understand.",
