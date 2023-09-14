@@ -106,7 +106,7 @@ class ExperienceCard extends Component {
                 </p>
                 <ul style={{ color: theme.secondaryText }}>
                   {experience["workPoints"].map((e, i) => {
-                    return <li>{experience["workPoints"][i]}</li>;
+                    return <li key={i}>{experience["workPoints"][i]}</li>;
                   })}
                 </ul>
               </div>
