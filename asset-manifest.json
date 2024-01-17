@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.f7a284b8.css",
-    "main.js": "./static/js/main.e7e75a91.js",
+    "main.css": "./static/css/main.5340c47e.css",
+    "main.js": "./static/js/main.d1b8d410.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/recognition - 2.pdf": "./static/media/recognition - 2.6924391ff30f09d7c2ed.pdf",
@@ -44,6 +44,7 @@
     "static/media/iiitk_logo.png": "./static/media/iiitk_logo.170d558551a09a7d1620.png",
     "static/media/intel_logo.jpg": "./static/media/intel_logo.d7577f35a3dac4e5636d.jpg",
     "static/media/ui_ux_design.svg": "./static/media/ui_ux_design.42a2cdaf132097cc499e.svg",
+    "static/media/GCP.jpg": "./static/media/GCP.46cbda1b7d5980cf957d.jpg",
     "static/media/IMG-0620.JPG": "./static/media/IMG-0620.4c14e31f180f6ceb1f3d.JPG",
     "static/media/manOnTable.svg": "./static/media/manOnTable.f861b03b5a2d1a28c198.svg",
     "static/media/muffito_logo.png": "./static/media/muffito_logo.a40e290031eaf389bde1.png",
@@ -53,12 +54,14 @@
     "static/media/fa-regular-400.eot": "./static/media/fa-regular-400.86ce78132c18df414d83.eot",
     "static/media/fa-regular-400.ttf": "./static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf",
     "static/media/legato_logo.png": "./static/media/legato_logo.227e72c7979187840ba3.png",
+    "static/media/UOM.png": "./static/media/UOM.92ee5d63483161170bda.png",
     "static/media/developerActivity.svg": "./static/media/developerActivity.967f31dad3158d5be07b.svg",
     "static/media/github_logo.png": "./static/media/github_logo.15e591a7397b9ef45656.png",
     "static/media/GUVI.webp": "./static/media/GUVI.8a7b1e1ac3914a280c11.webp",
     "static/media/NYIT.jpg": "./static/media/NYIT.93c459aa82049680d93a.jpg",
     "static/media/googleAssistant.jpg": "./static/media/googleAssistant.547075a751cc15673246.jpg",
     "static/media/projects_image.svg": "./static/media/projects_image.0a8062569966b4888c7c.svg",
+    "static/media/virtusa.jpg": "./static/media/virtusa.9383a330fbac1c6568f0.jpg",
     "static/media/programmer.svg": "./static/media/programmer.d3060f7bf0527835d72e.svg",
     "static/media/jsFramework.svg": "./static/media/jsFramework.911c595a22a28c7b6f78.svg",
     "static/media/address_image.svg": "./static/media/address_image.3385d92e5e426e57a5b1.svg",
@@ -78,11 +81,11 @@
     "static/media/googleAssistant.svg": "./static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.f7a284b8.css.map": "./static/css/main.f7a284b8.css.map",
-    "main.e7e75a91.js.map": "./static/js/main.e7e75a91.js.map"
+    "main.5340c47e.css.map": "./static/css/main.5340c47e.css.map",
+    "main.d1b8d410.js.map": "./static/js/main.d1b8d410.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7a284b8.css",
-    "static/js/main.e7e75a91.js"
+    "static/css/main.5340c47e.css",
+    "static/js/main.d1b8d410.js"
   ]
 }
