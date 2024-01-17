@@ -414,6 +414,33 @@ const certifications = {
       alt_name: "DBS Appsec Titan Bronze",
       color_code: "#00000099",
     },
+    {
+      title: "Internship Certificate",
+      subtitle: "- Virtusa",
+      logo_path: "virtusa.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/16zU0TQxtUNOSoCZVJkUQnkLGue7zDAJk/view?usp=sharing",
+      alt_name: "Internship Certificate",
+      color_code: "#00000099",
+    },
+    {
+      title: "Architecting with Google Compute Engine",
+      subtitle: "- Coursera",
+      logo_path: "GCP.jpg",
+      certificate_link:
+        "https://coursera.org/share/3a0fb07d0fba9d3ea07899f9cd515665",
+      alt_name: "Architecting with Google Compute Enginee",
+      color_code: "#00000099",
+    },
+    {
+      title: "Python Programming for Everybody, University of Michigan",
+      subtitle: "- Coursera",
+      logo_path: "UOM.png",
+      certificate_link:
+        "https://coursera.org/share/17ebb3ada8e5d26b67a08e62a7524849",
+      alt_name: "Python Programming for Everybody, University of Michiga",
+      color_code: "#00000099",
+    },
   ],
 };
 
