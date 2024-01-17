@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Software Developer who is dynamic and creative and has over 2 years of experience writing solid code. Seeking a challenging position in a Technical organization that will allow me to use my skills in the best possible way to achieve the company's goals, enhance my professional skills in a dynamic and stable workplace, and solve problems in an effective manner. Always seeks to work on complete solutions that create impact through the development of scalable and sustainable social and technical systems.",
   resumeLink:
-    "https://drive.google.com/file/d/1r7lG8xk7jyVcN_EFhtrtfudhVWg6gLLG/view?usp=share_link",
+    "https://drive.google.com/file/d/1Fw9ijN2djzYSh75c6jFapD0YwOHLO0Ps/view?usp=sharing",
   portfolio_repository: "",
   githubProfile: "https://github.com/kshashikumar",
 };
@@ -45,7 +45,7 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:shashikumarkasturi2712@gmail.com",
+    link: "mailto:skastu01@nyit.edu",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -85,6 +85,14 @@ const skills = {
         {
           skillName: "springboot",
           fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#6DB33F",
+          },
+        },
+        ,
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
           style: {
             color: "#6DB33F",
           },
@@ -292,30 +300,31 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerrank.com/17h51a0576",
     },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@shashi163",
-    },
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/shashipatel2712/",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/shashipatel_27",
-    },
+    // ,
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@shashi163",
+    // },
+    // {
+    //   siteName: "LeetCode",
+    //   iconifyClassname: "simple-icons:leetcode",
+    //   style: {
+    //     color: "#F79F1B",
+    //   },
+    //   profileLink: "https://leetcode.com/shashipatel2712/",
+    // },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/shashipatel_27",
+    // },
   ],
 };
 
@@ -341,7 +350,8 @@ const degrees = {
       alt_name: "New York Institute of Technology",
       duration: "2023 - present",
       descriptions: [
-        "⚡ I have recently joined NYIT and focused on learning Machine learning and advancements from bachelors.",
+        "⚡ Currently pursuing my Master's in Computer and Information Sciences at NYIT and focused on learning Machine learning and advancements from bachelors.",
+        "⚡ Working as a Graduate Assistant for Physician Assistant Studies, helped in developing application using AngularJS and Django.",
       ],
       website_link: "https://www.nyit.edu/",
     },
@@ -420,6 +430,31 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Graduate Assistantship ",
+          company: "NYIT",
+          company_url: "https://www.nyit.edu/",
+          logo_path: "NYIT.jpg",
+          duration: "Aug 2023 - Present",
+          location: "New York, USA",
+          description:
+            "I have worked on Integrated online payments Engine Project, which is the core heart of every online payment systems. The projects involves processing of a transaction end-to-end within 6 seconds. I also worked on developing spring batch jobs to automate huge number of transations and also developed User interfaces, which are used by the bank officials to view the transaction details. Our goal is to make banking easy. Think more, Bank less",
+          color: "#f5f5f5",
+          workPoints: [
+            "Worked on developing an application used by student doctors that helps in maintaining data of the patients and maintaining hospital insights.",
+            "Designed end to end project and developed internal web application using Angular JS and Django, that provides detailed insights of all patient’s data and hospital maintenance.",
+            "Worked on implementing Single page application, which is optimized to reuse components and implemented cache memory for high performance.",
+            "Used Reactive forms module to implement form structures that help in sending data to backend securely.",
+            "Implemented Customized filtering of patients in table and also added pagination to handle multiple records.",
+            "Implemented Java Web Tokens (JWT) authentication for a secured login, proving access and refresh token for logged in user for seamless experience.",
+            "Implemented Calendar Schedule using FullCalender helping professors to view their upcoming classes.",
+            "Managed administrative tasks, including website development for Physician Assistant Department Students helping them with all new latest information updates from the department at their fingertips.",
+            "Streamlined interview process using selenium automation and Google scheduler to schedule multiple appointments for student interviews.",
+            "Worked on Excel to perform data analysis using pivot table, XLOOKUP and implemented a common usage pattern to calculate grades for students at the end of semester.",
+            "Introduced Mail Merge on common usage patterns which in turn helps professors to send mails automatically to students with no manual work.",
+            "Created Linux scripts to prepare data files, data validations and data checks.",
+          ],
+        },
+        {
           title:
             "Analyst, Specialist, Application Developer, Corporate Banking ",
           company: "DBS Tech",
@@ -431,16 +466,22 @@ const experience = {
             "I have worked on Integrated online payments Engine Project, which is the core heart of every online payment systems. The projects involves processing of a transaction end-to-end within 6 seconds. I also worked on developing spring batch jobs to automate huge number of transations and also developed User interfaces, which are used by the bank officials to view the transaction details. Our goal is to make banking easy. Think more, Bank less",
           color: "#f5f5f5",
           workPoints: [
-            "Collaborated with a six-person team and Worked for Fast payments for countries Hong Kong and Vietnam.",
-            "Developed a batch module for Outward C3 which allows to on-board any DBS customers without further system enhancement, support both proxy and bank account transfer into the same product code, make our bank competitive as providing late cut-off time at 7PM SGT and NoOps process on return reject cases.",
-            "Developed resiliency workflow to provide supplementary information feedback to our DBS customers on Payee Account crediting status. For FPS outward real-time transfer, on top of existing account verification result provided from payee banks we can receive and return the new acknowledgement message from payee banks for crediting status.",
-            "Developed Batch Job for data archiving for real time and bulk transaction processing and automated the process completely for Hongkong and Vietnam countries in which the system performance improved with enhanced results.",
-            "Migrated the Internal operations team User Interface from Struts, JSP to Angular framework and implemented MFA.",
-            "Fixed Log4j Critical Vulnerability issue in Integrated Payment Engine 2 for Hongkong Country.",
-            "Developed and supported for Migration from VIC to OCP so the system can run with high scalability, resiliency and availability. Used HPA and Auto and De Scaling and used Service Monitor for pushing the logs to a centralized logging system GrayLog.",
+            "Collaborated with a six-person team and Worked for Fast payments for countries like Hong Kong and Vietnam Integrated Real-time and Batch Payment Systems.",
+            "Developed a batch module for Outward C3 which allows to on-board any DBS customers without further system enhancement, support both proxy and bank account transfer into the same product code, make our bank competitive as providing late cut-off time at 7PM SGT and No Ops process on return reject cases. Files are processed immediately as they are received with no wait time handling huge 500 to 1000 TPS with less resources. ",
+            "Built resiliency workflow to provide supplementary information feedback to our DBS customers on Payee Account crediting status. For FPS outward real-time transfer, on top of existing account verification result provided from payee banks we can receive and return the new acknowledgement message from payee banks for crediting status. ",
+            "Implemented Batch Job for Consolidated Payments which supports both enquiry and bulk payment helping the customers to do bulk transactions through online processing taking the help of batch jobs to process the bulk files with no wait time and high TPS supporting 1000 Transactions per Second. ",
+            "Upgraded Batch Job for data archiving from one database to another database for real time and bulk transaction processing and automated the process completely for Hongkong and Vietnam countries in which the system performance improved with enhanced results. Re-Formulated Payments UI to handle the archived transactions, which helps Ops user to reverify any transaction for the customers.",
+            "Migrated the Internal operations team User Interface from Struts, JSP to Angular framework and implemented Multi Factor Authentication with secure JWT token implementation for login having a refresh token generating a access token for every 30 minutes, which in turn blacklists the older tokens for security. ",
+            "Worked with IBM Tivoli Workload Scheduler(TWS) for scheduling jobs in different servers.",
+            "Fixed Log4j Critical Vulnerability issue for Hongkong and Vietnam Integrated Payment Systems 2, Payment UI Systems and Batch Processing Systems. Streamlined auto generation of new log files based on size of log file, which improved logs maintenance in production.",
+            "Developed and supported for Migration from VIC to OCP so the system can run with high scalability, resiliency, and availability. Used Horizontal Pod Auto-Scaler(HPA), which automatically upscales and descales the number of pods in the ring, to handle high TPS with immediate effect and used Server Monitoring services for pushing the logs from different pods to a centralized logging system Gray Log",
             "Developed simulator for testing which is available for chromium browsers which helps to automate the Regression and Load testing.",
-            "Developed Batch Job for Consolidated Payments which supports both enquiry and bulk payment. It helps the customers to do bulk transactions through online processing taking the help of batch jobs to process the bulk files.",
-            "Trained interns on Full stack development by making them develop two different applications namely Industry Stub and Migration of UI from JSPs to Angular JS.",
+            "Integrated Batch UI to Existing Vietnam Realtime payments UI for batch transaction analysis including end to end transaction flow and details, which can be used by the Internal operations team. Also implemented to switch between current and achieved transactions, which are present on different databases.",
+            "Introduced SMS and Email Notifications on credits and debits for customers from all different sources including real-time payments and batch payments. Generalized the service making it easier to add a new service or source.",
+            "Coordinated and Contributed for many production releases, participating actively in taking control over undesired outcome situations. Created different Linux scripts to automate logs verification and deployments verification in Production.",
+            "Integrated Bulk queue Controller system, which is used in starting and stopping multiple listeners in a system and routing traffic only to one server with one click helping the Infra team to upgrade the servers with ease and maintaining no downtime in production.",
+            "Composed Jenkins scripts to work on migrating VIC to OCP and fixed pipeline issues. Rectified sonar issues as well as OSS issues before every production release, which increased system security with low vulnerabilities.",
+            "Trained interns on Full stack development by making them develop two different applications namely Industry Stub, which is an alternative system used for testing transactions when Industry clearing house system is down and Migration of UI from JSPs to Angular JS.",
           ],
         },
       ],
@@ -485,21 +526,21 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "cartoon-nobg.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Java, Python, Spring boot, Spring Batch, Angular, React, GoLang, Linux, Docker, OCP, Application Development and Full Staack Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Java, Python, Spring boot, Django, Spring Batch, Angular, React, GoLang, Linux, Docker, OCP, Application Development and Full Staack Development.",
   },
   addressSection: {
     title: "Address",
-    subtitle: "209 Princess St, Hicksville, NY 11801",
+    subtitle: "28 Chestnut St, Hicksville, NY 11801",
     locality: "Hicksville",
     country: "USA",
     region: "New York",
     postalCode: "11801",
-    streetAddress: "Princess St",
+    streetAddress: "Chestnut St",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/xEEmX2nEto1iSrjZ8",
+    location_map_link: "https://maps.app.goo.gl/HTNwMgHFMEz692bb6",
   },
   phoneSection: {
-    title: "shashikumarkasturi2712@gmail.com",
+    title: "skastu01@nyit.edu",
     subtitle: "+1 (516) 9797932",
   },
 };
