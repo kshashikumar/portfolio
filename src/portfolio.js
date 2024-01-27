@@ -45,7 +45,7 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:skastu01@nyit.edu",
+    link: "mailto:shashikumark1227@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -351,7 +351,8 @@ const degrees = {
       duration: "2023 - present",
       descriptions: [
         "⚡ Currently pursuing my Master's in Computer and Information Sciences at NYIT and focused on learning Machine learning and advancements from bachelors.",
-        "⚡ Working as a Graduate Assistant for Physician Assistant Studies, helped in developing application using AngularJS and Django.",
+        "⚡ Working as a Graduate Assistant for Physician Assistant Studies since Sep 2023, helped in developing application using AngularJS and Django.",
+        "⚡ Working as a Teaching Assistant for Prof. Kiran Balagani, focused on helping professor in coursework related to Deep Learning and Probability and Statistics .",
       ],
       website_link: "https://www.nyit.edu/",
     },
@@ -567,7 +568,7 @@ const contactPageData = {
     location_map_link: "https://maps.app.goo.gl/HTNwMgHFMEz692bb6",
   },
   phoneSection: {
-    title: "skastu01@nyit.edu",
+    title: "shashikumark1227@gmail.com",
     subtitle: "+1 (516) 9797932",
   },
 };
